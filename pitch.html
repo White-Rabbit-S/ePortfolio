@@ -44,45 +44,20 @@
         <div class="video-container">
             
             <!-- Video Embed Area -->
-            <div class="video-placeholder">
-                <div style="text-align: center; padding: 2rem;">
-                    <h3 style="color: var(--accent-primary); margin-bottom: 1rem;">📹 Your Panopto Video Goes Here</h3>
-                    <p style="margin-bottom: 1.5rem;">Once you've recorded your 5-minute pitch on Panopto, replace this placeholder with your embed code.</p>
-                    
-                    <div style="background-color: var(--bg-primary); padding: 2rem; border-radius: 8px; max-width: 600px; margin: 0 auto; text-align: left;">
-                        <p style="color: var(--highlight); font-weight: 600; margin-bottom: 1rem;">How to embed your Panopto video:</p>
-                        <ol style="margin-left: 1.5rem; line-height: 1.8;">
-                            <li>Record your 5-minute pitch on Panopto</li>
-                            <li>Set the video to <strong>"Public"</strong> or <strong>"Unlisted"</strong></li>
-                            <li>Get the share URL from Panopto (it will look like: <code style="color: var(--accent-primary);">https://ecu.ap.panopto.com/Panopto/Pages/Viewer.aspx?id=XXXXX</code>)</li>
-                            <li>Replace the placeholder below with your iframe embed code</li>
-                        </ol>
-                    </div>
-
-                    <div style="margin-top: 2rem; padding: 1.5rem; background-color: rgba(0, 173, 181, 0.1); border-left: 4px solid var(--accent-primary); border-radius: 5px; text-align: left;">
-                        <p style="font-family: monospace; font-size: 0.9rem; color: var(--text-primary); margin-bottom: 0;">
-                            &lt;!-- Replace the placeholder div above with: --&gt;<br>
-                            &lt;div class="video-wrapper"&gt;<br>
-                            &nbsp;&nbsp;&lt;iframe src="YOUR_PANOPTO_EMBED_URL"<br>
-                            &nbsp;&nbsp;&nbsp;&nbsp;width="100%" height="100%"<br>
-                            &nbsp;&nbsp;&nbsp;&nbsp;allowfullscreen&gt;&lt;/iframe&gt;<br>
-                            &lt;/div&gt;
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Alternative: You can uncomment this when you have your Panopto URL -->
-            <!-- 
             <div class="video-wrapper">
-                <iframe src="YOUR_PANOPTO_EMBED_URL_HERE" 
+                <iframe src="https://ecu.ap.panopto.com/Panopto/Pages/Embed.aspx?id=2c047ab8-dca2-49bf-95b2-b38700bc5c25&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=false&interactivity=all" 
                         width="100%" 
                         height="100%" 
+                        style="border: 1px solid #464646;" 
                         allowfullscreen
                         allow="autoplay">
                 </iframe>
             </div>
-            -->
+
+            <!-- Direct Link -->
+            <p style="text-align: center; margin-top: 1.5rem; color: var(--text-secondary);">
+                Direct link: <a href="https://ecu.ap.panopto.com/Panopto/Pages/Viewer.aspx?id=2c047ab8-dca2-49bf-95b2-b38700bc5c25" target="_blank" style="color: var(--accent-primary); text-decoration: none; transition: var(--transition);">https://ecu.ap.panopto.com/Panopto/Pages/Viewer.aspx?id=2c047ab8-dca2-49bf-95b2-b38700bc5c25</a>
+            </p>
 
         </div>
     </section>

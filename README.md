@@ -19,78 +19,65 @@ A complete, professional ePortfolio website showcasing game design projects, ski
 
 ```
 Website/
-├── index.html          → Home page (About + Vision)
-├── projects.html       → Projects showcase (10 projects)
-├── cv.html            → CV/Resume page
-├── pitch.html         → Video pitch page
-├── contact.html       → Contact information & form
+├── index.html                  → Home page (About + Vision)
+├── projects.html               → Projects showcase (10 projects)
+├── cv.html                     → CV/Resume page
+├── pitch.html                  → Video pitch page (Panopto embedded)
+├── contact.html                → Contact information & form
+├── README.md                   → This file
 └── assets/
     ├── css/
-    │   └── styles.css → Main stylesheet
-    ├── images/        → Project images (add your screenshots here)
-    └── Sandaru_Nanayakkara_Junior_Game_Designer_CV.pdf → Your CV file
+    │   └── styles.css          → Main stylesheet
+    ├── images/                 → ✅ All project images added
+    │   ├── Tower_Defense.jpg
+    │   ├── Pixel_Adventure.jpg
+    │   ├── Space_shooter.jpg
+    │   ├── 3Dmodel.jpg
+    │   ├── 3DEnviorenment.jpg
+    │   ├── 3DModelingSite.png
+    │   ├── OnlineSaftyActSite.png
+    │   ├── Military_simulation.jpg
+    │   ├── VR_App.jpg
+    │   └── Mobile_App.jpg
+    └── Sandaru_Nanayakkara_CV.pdf → ✅ CV file added
 ```
 
 ---
 
-## ✅ NEXT STEPS TO COMPLETE YOUR PORTFOLIO
+## ✅ COMPLETED FEATURES
 
-### 1. **Add Your CV PDF**
-- Create a PDF version of your CV
-- Save it as `Sandaru_Nanayakkara_Junior_Game_Designer_CV.pdf`
-- Place it in the `assets/` folder
-- The download button on `cv.html` is already linked to this file
+### ✨ All Requirements Met
 
-### 2. **Add Project Images**
-- Add screenshots/images of your projects to `assets/images/`
-- Recommended filenames:
-  - `tower-defense.jpg`
-  - `pixel-adventure.jpg`
-  - `space-shooter.jpg`
-  - `robot-3d.jpg`
-  - `environment-3d.jpg`
-  - `educational-website.jpg`
-  - `safety-website.jpg`
-  - `military-sim.jpg`
-  - `vr-app.jpg`
-  - `mobile-app.jpg`
-- Images will automatically display when files exist
-- If no image exists, emoji placeholders will show instead
+✅ **CV PDF Added** - Download button working on cv.html  
+✅ **All Project Images Added** - 10 project screenshots in assets/images/  
+✅ **Panopto Video Embedded** - 5-minute pitch playing on pitch.html  
+✅ **Social Media Links** - GitHub and LinkedIn integrated across all pages  
+✅ **Responsive Design** - Works perfectly on all devices  
+✅ **Image Lightbox** - Click project images to view full size  
+✅ **Auto-hide Navbar** - Smooth scroll behavior  
+✅ **Contact Information** - All details updated  
+✅ **Live Project Link** - Online Safety Act website linked  
 
-### 3. **Add Your Profile Photo (Optional)**
-- Add a professional headshot as `assets/images/profile.jpg`
-- The site currently shows an "SN" logo placeholder
-- Your photo will automatically appear when the file exists
+### 🎯 Portfolio Highlights
 
-### 4. **Embed Your Panopto Video**
-- Record your 5-minute video pitch on Panopto
-- Set video visibility to "Public" or "Unlisted"
-- Get the embed code or share URL from Panopto
-- Open `pitch.html` and find the video section (around line 53)
-- Replace the placeholder with your iframe embed code
+**10 Projects Showcased:**
+1. Tower Defense Game - Wave-based building placement
+2. Pixel Adventure - Green frog platformer (Unity + C#)
+3. Space Shooter - 3D top-down arcade shooter
+4. 3D Robot Model - Fully articulated character
+5. 3D Environment - Apartment interior design
+6. Educational Website - Blender learning platform
+7. Online Safety Act - Live site with working link
+8. Military Simulation - LEGO-based military base
+9. VR Application - Grab and throw mechanics
+10. Mobile Application - Simple mobile app design
 
-**Example:**
-```html
-<div class="video-wrapper">
-    <iframe src="https://ecu.ap.panopto.com/Panopto/Pages/Embed.aspx?id=YOUR-VIDEO-ID"
-            width="100%" 
-            height="100%" 
-            allowfullscreen>
-    </iframe>
-</div>
-```
-
-### 5. **Update Social Media Links**
-- Open `contact.html`
-- Update the LinkedIn, GitHub, and ArtStation URLs (around line 83-97)
-- Replace placeholder URLs with your actual profile links
-- If you don't have these profiles, create them or remove the links
-
-### 6. **Customize Content (Optional)**
-- Feel free to edit any text in the HTML files
-- Update project descriptions in `projects.html`
-- Add more personal details to `index.html`
-- Modify the CV content in `cv.html`
+**Special Features:**
+- Click any project image to view full size in lightbox modal
+- Online Safety Act has live link: https://white-rabbit-s.github.io/stay-safe-online/
+- Panopto video with direct download link
+- Downloadable CV in PDF format
+- Social media presence (GitHub & LinkedIn) on all pages
 
 ---
 
@@ -154,13 +141,18 @@ Website/
 
 ## 🎯 FEATURES
 
-✅ **Responsive Design** - Works on desktop, tablet, and mobile
-✅ **Modern Color Scheme** - Game design aesthetic with dark theme
-✅ **Smooth Animations** - Hover effects and transitions
-✅ **Mobile Menu** - Hamburger menu for small screens
-✅ **Accessible** - Semantic HTML and proper contrast ratios
-✅ **Professional** - Clean layout and typography
-✅ **Fast Loading** - Optimized CSS with no external dependencies (except Google Fonts)
+✅ **Responsive Design** - 7 breakpoints for all devices (1400px to 360px)  
+✅ **Modern Color Scheme** - Game design aesthetic with purple/green theme  
+✅ **Smooth Animations** - Hover effects, transitions, and fade-ins  
+✅ **Mobile Menu** - Hamburger menu for small screens  
+✅ **Auto-hide Navbar** - Hides on scroll down, shows on scroll up  
+✅ **Image Lightbox** - Click to enlarge project images  
+✅ **Video Integration** - Embedded Panopto player with direct link  
+✅ **Social Media** - GitHub & LinkedIn icons on all pages  
+✅ **Downloadable CV** - PDF file ready to download  
+✅ **Live Projects** - Working link to Online Safety Act website  
+✅ **Professional** - Clean layout and modern typography  
+✅ **Fast Loading** - Optimized CSS with minimal dependencies
 
 ---
 
@@ -174,55 +166,69 @@ Website/
 
 ---
 
-## 💡 TIPS FOR HIGH MARKS
+## 💡 PORTFOLIO CHECKLIST
 
-1. ✅ **Add real project images** - Screenshots make a huge difference
-2. ✅ **Record a confident video pitch** - Practice before recording
-3. ✅ **Update all placeholder content** - Make it personal and authentic
-4. ✅ **Test on multiple devices** - Check mobile, tablet, desktop
-5. ✅ **Proofread everything** - Check for typos and grammar
-6. ✅ **Update social media links** - LinkedIn is especially important
-7. ✅ **Add your CV PDF** - Make sure the download works
-8. ✅ **Show your personality** - Let your passion shine through
+✅ **Real project images added** - All 10 projects have screenshots  
+✅ **Video pitch recorded** - 5-minute Panopto video embedded  
+✅ **Content personalized** - Introduction and vision statement updated  
+✅ **Mobile responsive** - Tested across all breakpoints  
+✅ **Social media linked** - GitHub and LinkedIn on all pages  
+✅ **CV PDF added** - Download button working  
+✅ **Live project linked** - Online Safety Act website accessible  
+✅ **Professional design** - Game designer aesthetic with purple/green theme  
+✅ **Interactive features** - Lightbox, auto-hide navbar, hover effects  
+✅ **All pages complete** - Home, Projects, CV, Pitch, Contact
 
 ---
 
-## 📧 CONTACT INFORMATION IN PORTFOLIO
+## 📧 CONTACT INFORMATION
 
 - **Email**: sandaruabisheka01@gmail.com
 - **Phone**: 0764035803
 - **Location**: Perth, Western Australia
 - **University**: Edith Cowan University
 
+## 🔗 LIVE LINKS
+
+- **GitHub**: https://github.com/White-Rabbit-S
+- **LinkedIn**: https://www.linkedin.com/in/sandaru-abisheka-b29617360/
+- **Live Project**: https://white-rabbit-s.github.io/stay-safe-online/
+- **Video Pitch**: https://ecu.ap.panopto.com/Panopto/Pages/Viewer.aspx?id=2c047ab8-dca2-49bf-95b2-b38700bc5c25
+
 ---
 
 ## 🎨 DESIGN PHILOSOPHY
 
 This portfolio follows modern game designer aesthetic:
-- **Dark Mode** - Professional and easy on the eyes
-- **Teal Accent** - Stands out without being overwhelming
+- **Light Mode** - Clean, professional, and eye-friendly
+- **Purple & Green** - Vibrant game designer color scheme
 - **Clean Layout** - Easy navigation and clear hierarchy
-- **Hover Effects** - Interactive and engaging
-- **Typography** - Clear, readable, and stylish
+- **Hover Effects** - Interactive and engaging elements
+- **Gaming Elements** - Emojis, gradients, and playful design
+- **Typography** - Montserrat headings, Open Sans body text
+- **Responsive** - Perfect on desktop, tablet, and mobile
 
 ---
 
 ## 🆘 TROUBLESHOOTING
 
 **Q: Images aren't showing?**
-A: Make sure image files are in `assets/images/` with correct filenames. The site will show emoji placeholders if images are missing.
+A: ✅ All images are already added to `assets/images/`. If you need to replace them, keep the same filenames.
 
 **Q: CV download isn't working?**
-A: Add your PDF file to the `assets/` folder with the exact filename: `Sandaru_Nanayakkara_Junior_Game_Designer_CV.pdf`
+A: ✅ CV file is already added as `Sandaru_Nanayakkara_CV.pdf` in the assets folder and linked correctly.
 
 **Q: Contact form isn't sending emails?**
-A: The form needs a backend service. Use FormSpree, Netlify Forms, or connect to a PHP mail handler.
+A: The form currently shows an alert. To make it functional, connect it to FormSpree, Netlify Forms, or a custom backend.
 
 **Q: Video isn't showing?**
-A: Make sure your Panopto video is set to Public/Unlisted and you've replaced the placeholder with your embed code.
+A: ✅ Panopto video is already embedded and working. Direct link is also available below the video.
 
 **Q: Menu not working on mobile?**
 A: Make sure JavaScript is enabled in your browser. The hamburger menu uses JavaScript for toggle functionality.
+
+**Q: Lightbox not working?**
+A: ✅ Lightbox is fully functional. Click any project image to view it full size. Close with X, ESC key, or click outside.
 
 ---
 
@@ -242,6 +248,16 @@ This ePortfolio is created for:
 
 ---
 
-**Good luck with your portfolio! 🚀🎮**
+## 🎓 PROJECT STATUS
 
-*Remember: Your portfolio represents YOU. Make it personal, professional, and authentic!*
+**Status**: ✅ **COMPLETE**  
+**Last Updated**: October 31, 2025  
+**Ready for Submission**: YES
+
+All features implemented and tested. Portfolio is ready to showcase and submit.
+
+---
+
+**Built with � and 🎮 by Sandaru Nanayakkara**
+
+*For inquiries or collaboration opportunities, please visit the contact page or reach out via email.*
